@@ -1,0 +1,154 @@
+%! Author = givaraebo
+%! Date = 08.12.24
+\documentclass[11pt]{scrlttr2}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[ngerman]{babel} % für deutsche Spracheinstellungen
+% \usepackage[ngerman, num]{isodate} % 07. 12. 2024
+\usepackage[ngerman]{isodate} % 7. Dezember 2024
+% Anpassung der Seitenränder
+\usepackage{geometry}
+\geometry{
+    left=2.5cm,
+    right=1.5cm,
+    top=1.69cm,
+    bottom=3cm
+}
+\setlength{\parindent}{0pt}  % Entfernt die Einrückung für alle Absätze
+\usepackage{fancyhdr}  % Paket für benutzerdefinierte Kopf- und Fußzeilen
+\pagestyle{fancy}  % Aktiviert die Verwendung von fancyhdr
+\usepackage{lastpage}   % Paket, um die letzte Seite des Dokuments zu ermitteln
+% Remove the horizontal line at the top of the page
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+\date{}
+% Fügt die Seitennummer in jeder Fußzeile rechts ein
+\fancyfoot[c]{
+    \begin{tikzpicture}[remember picture, overlay]
+        % Seitennummer im unteren rechten Bereich
+        \node[align=right, anchor=south east] at ([xshift=-2cm, yshift=2cm]current page.south east) {
+            \thepage/\pageref{LastPage}
+        };
+    \end{tikzpicture}
+}% Fügt die Seitennummer in jeder Fußzeile rechts ein
+
+
+
+
+\begin{document}
+    \begin{letter}{}
+% Header anpassen
+        \begin{tikzpicture}[remember picture, overlay]
+            % Absenderdetails links
+            \node[align=left, anchor=north west] at ([xshift=11cm,yshift=-5cm ]current page.north west) {
+                % Briefkopf (rechtsbündig, wie in deinem Beispiel)
+                    {\fontsize{8}{12}\selectfont
+                \begin{tabular}{@{}p{3.3cm}p{8cm}@{}}
+                    \textbf{Vorgangsnummer:} & A7536 \\
+                    \textbf{Ansprechpartner:} & Julian Heidenberger \\
+                    \textbf{Abteilung:} & Produktion \\
+                    \textbf{Telefon:} & 05443 327667 \\
+                    \textbf{E-Mail:} & j.heidenberger@zeitblueten.com \\
+                    \textbf{Internet:} & www.zeitblueten.com \\
+                    \textbf{Datum:} & \today \\
+                \end{tabular}
+                }
+
+            };
+
+            % Empfängerdaten
+            \node[align=left, anchor=north west] at ([xshift=2.4cm,yshift=-6.3cm ]current page.north west) {
+                \parbox{6cm}{
+                    \textbf{Empfänger} \\
+                    \small {Beispielstraße 10\\54321 Beispielstadt\\}
+                }
+            };
+
+            % Seitennummer im unteren rechten Bereich
+            \node[align=right, anchor=south east] at ([xshift=-2cm, yshift=2cm]current page.south east) {
+                \thepage/\pageref{LastPage}
+            };
+        \end{tikzpicture}
+% Grußformel
+        \opening{Sehr geehrte Damen und Herren,}
+
+        vielen Dank für Ihre Anfrage vom 01. Oktober 2024. Gerne beantworten wir Ihre Fragen wie folgt:
+
+% Aufzählung mit Einrückung von 4,95 cm
+        \begin{itemize}
+            \item Unser erstes Produkt wird ab dem 15. Oktober 2024 verfügbar sein.
+            \item Weitere Informationen finden Sie auf unserer Webseite.
+            \item Bitte zögern Sie nicht, uns bei Fragen zu kontaktieren.
+        \end{itemize}
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+        Bestätigung Logout
+        Vielen Dank für Ihren Besuch.
+
+        Aus Sicherheitsgründen empfehlen wir Ihnen, den Browser nach der Nutzung von ELSTER zu schließen, nicht für den Besuch weiterer Seiten im Internet zu verwenden und den Zwischenspeicher (Cache) Ihres Browsers zu löschen. Dieser Hinweis gilt insbesondere dann, wenn Sie ELSTER nicht von zu Hause, sondern von einem öffentlichen Ort aus nutzen (z. B. Internet-Café).
+
+
+        Wir freuen uns auf Ihre Rückmeldung.
+
+% Abschlussformel
+        \closing{Mit freundlichen Grüßen}
+        \signature{Ihr Name}
+
+    \end{letter}
+
+
+
+\end{document}
