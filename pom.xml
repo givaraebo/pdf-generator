@@ -20,11 +20,13 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.github.givaraebo</groupId>
             <artifactId>file-utils</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>a337e6b989</version>
         </dependency>
     </dependencies>
+
 </project>

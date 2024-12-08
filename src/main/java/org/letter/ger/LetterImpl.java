@@ -45,6 +45,7 @@ public class LetterImpl extends LatexComponentImpl implements Letter {
         );
     }};
 
+
     @Override
     public List<String> getImportPackages() {
         return importPackages;
@@ -65,10 +66,13 @@ public class LetterImpl extends LatexComponentImpl implements Letter {
         return "\\end{letter}\n";
     }
 
+
+
+
     @Override
     public String toTex() {
         contentAdd(getStart());
-        getComponents().forEach(component -> contentAdd(component.toTex()+"\n"));
+        getComponents().reversed().forEach(component -> contentAdd(component.toTex()+"\n"));
         contentAdd(getEnd());
         return getContent();
     }
